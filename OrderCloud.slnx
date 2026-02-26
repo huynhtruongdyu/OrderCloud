@@ -3,7 +3,9 @@
     <Project Path="src/OC.AppHost/OC.AppHost.csproj" Id="859a5edd-babd-4c28-af52-6f919044dd1b" />
     <Project Path="src/OC.ServiceDefaults/OC.ServiceDefaults.csproj" Id="4e3125a5-1b6f-4462-aaf6-5cb6c45f2b1e" />
   </Folder>
-  <Folder Name="/src/api/" />
+  <Folder Name="/src/api/">
+    <Project Path="src/api/OC.API/OC.API.csproj" />
+  </Folder>
   <Folder Name="/src/backoffice/">
     <Project Path="src/backoffice/OC.Backoffice/OC.Backoffice.csproj" />
   </Folder>

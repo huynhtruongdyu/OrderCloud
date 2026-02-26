@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\api\OC.API\OC.API.csproj" />
     <ProjectReference Include="..\backoffice\OC.Backoffice\OC.Backoffice.csproj" />
     <ProjectReference Include="..\cms\OC.CMS\OC.CMS.csproj" />
   </ItemGroup>
